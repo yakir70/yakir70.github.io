@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HaimEldatov menschool</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,100;1,300;1,400;1,700&display=swap">
+        <link rel="stylesheet" href="WEBfontawesome-free-6.1.1/css/all.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/EldatovLogoHat PNG.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-rectangle-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="https://www.facebook.com/%D7%9C%D7%95%D7%A4%D7%98-%D7%90%D7%91%D7%95-%D7%93%D7%90%D7%91%D7%99-%D7%A4%D7%95%D7%9C%D7%92-%D7%A0%D7%AA%D7%A0%D7%99%D7%94-101540575580558/">Contact</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>About Us</h1>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="card">
+                    <img src="images/founder.JPG">
+                    <div class="intro" id="Eldatov">
+                        <h1>Eldatov</h1>
+                        <p>The Founder and the owner of "Eldatov Menschool" specializing in manly photos , fake brands , walletless and Master philosophy. <br>K/D 3.62 <br> Rage Quiter</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/co-founder.jpeg">
+                    <div class="intro" id="Zano">
+                        <h1>Zano</h1>
+                        <p>The Co-Founder of the Legendary "Eldatov Menschool" providing lost men a way of life and culture , specializing in Cars , Women and Fake Brands. <br> K/D 0.26 <br> Bot </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <!---footer--->
+
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>You can contact us via Social Media</p>
+            <div class="icons">
+                <a href="https://www.facebook.com/%D7%9C%D7%95%D7%A4%D7%98-%D7%90%D7%91%D7%95-%D7%93%D7%90%D7%91%D7%99-%D7%A4%D7%95%D7%9C%D7%92-%D7%A0%D7%AA%D7%A0%D7%99%D7%94-101540575580558/"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/eldatovhaim/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </section>
+
+        
+
+        <!---JavaScript toggle Menu-->
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+        
+    </body>
+</html>
